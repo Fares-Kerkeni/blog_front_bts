@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/app.css" />
     <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
 
     <title>Blog sio</title>
   </head>
@@ -12,17 +16,87 @@
     <div class="container">
       <div class="header">
         <div class="nav">
-          <div class="logo"><p>Blog</p></div>
+          <div class="logo">
+            <p>Bl</p>
+            <p>OG</p>
+          </div>
           <nav>
             <ul>
-              <li><a href="">HTML</a></li>
-              <li><a href="">CSS</a></li>
-              <li><a href="">JS</a></li>
-              <li><a href="">PHP</a></li>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./pages/html.html">HTML</a></li>
+              <li><a href="./pages/css.html">CSS</a></li>
+              <li><a href="./pages/js.html">JS</a></li>
+              <li><a href="./pages/php.html">PHP</a></li>
             </ul>
           </nav>
         </div>
+        <div class="container_title">
+          <div class="title">
+            <div class="div_height"><p>voici mon</p></div>
+            <div class="div_height"><p>Blog</p></div>
+            <div class="div_height">
+              <p>sur les langages de programmation</p>
+            </div>
+          </div>
+        </div>
+        <div class="container_section_slid">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide " id="slide_html">
+                <img src="./assets/html.png" alt="" />
+              </div>
+              <div class="swiper-slide"id="slide_css">
+                <img src="./assets/css.jpeg" alt="" />
+              </div>
+              <div class="swiper-slide" id="slide_js">
+                <img src="./assets/js.jpeg" alt="" />
+              </div>
+              <div class="swiper-slide" id="slide_php">
+                <img src="./assets/PHP.jpg" alt="" />
+              </div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <div class="container_title_button_all_slide">
+            
+            <div class="container_langages_html ">
+              <div class="title">HTML</div>
+              <div class="text_langages">
+                HTML est l'acronyme de « HyperText Markup Language » ce qui
+                signifie « langage de balisage hypertexte ».
+              </div>
+              <a href="./pages/html.html" class="button">html</a>
+            </div>
+            <div class="container_langages_css">
+              <div class="title">CSS</div>
+              <div class="text_langages">
+                CSS est l'acronyme de « Cascading Style Sheets » ce qui signifie
+                « feuille de style en cascade ».
+              </div>
+              <a href="./pages/css.html" class="button">css</a>
+            </div>
+            <div class="container_langages_js ">
+              <div class="title">JS</div>
+              <div class="text_langages">
+                JavaScript est un langage de programmation de scripts principalement utilisé dans les pages web interactives mais aussi pour les serveurs avec l'utilisation (par exemple) de Node.js.
+              </div>
+              <a href="./pages/js.html" class="button">js</a>
+
+            </div>
+            <div class="container_langages_php ">
+              <div class="title">PHP</div>
+              <div class="text_langages">
+                PHP est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale.
+              </div>
+              <a href="./pages/php.html" class="button">php</a>
       </div>
     </div>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+    <!-- Initialize Swiper -->
+    <script></script>
   </body>
 </html>
