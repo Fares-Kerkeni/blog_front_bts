@@ -210,3 +210,13 @@ nav ul {
   justify-content: center;
   align-items: center;
 }
+.home_page {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.in {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

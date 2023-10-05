@@ -194,3 +194,8 @@ nav ul {
   color: black;
   border-radius: 25px;
 }
+.in {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
