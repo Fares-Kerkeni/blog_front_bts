@@ -126,7 +126,7 @@ nav ul {
   align-items: center;
 }
 .conatainer_all_video {
-  width: 100%;
+  width: 70%;
 
   display: flex;
 
@@ -159,7 +159,7 @@ nav ul {
 }
 .video {
   width: 100%;
-  height: calc(100% - 100px);
+  height: 100%;
   border-radius: 25px;
 }
 .video video {
